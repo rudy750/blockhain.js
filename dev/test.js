@@ -14,3 +14,15 @@ bitcoin.createNewTransaction(2000, 'ALEX89FDSDF99SF', 'JENKDKDF99DFK00DF');
 bitcoin.createNewBlock(9234234, 'ASDFASDF89AS8ASDF8', 'ASDF9ASDF82DS');
 
 console.log(bitcoin);
+
+//Hashblock test
+
+const previousBlockHash = 'SDFSDFi23FSDF';
+const currentBlockData = [
+  { amount: 10, sender: 'SDFSDF999SDF', recipient: 'SDF09SDFSDF23' },
+  { amount: 30, sender: 'SDFSDFO7778SDFS', recipient: 'JKNS9879SDF' },
+  { amount: 200, sender: 'SDF09SDF676SDF', recipient: 'SDF88SDF&88SDF9' }
+];
+const nonce = 100;
+
+console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, nonce));

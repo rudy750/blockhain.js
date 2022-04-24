@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rudy750/blockhain.js/issues"
   },
-  "homepage": "https://github.com/rudy750/blockhain.js#readme"
+  "homepage": "https://github.com/rudy750/blockhain.js#readme",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  }
 }

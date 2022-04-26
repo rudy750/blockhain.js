@@ -4,7 +4,8 @@
   "description": "A blockchain built with Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/rudy750/blockhain.js#readme",
   "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15",
     "sha256": "^0.2.0"
   }
 }
